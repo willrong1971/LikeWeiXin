@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>zh_CN</string>
+    <key>CFBundleDisplayName</key>
+    <string>手机视窗</string>
+    <key>CFBundleExecutable</key>
+    <string>LikeWeiXin</string>
+    <key>CFBundleIdentifier</key>
+    <string>local.will.LikeWeiXin</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>手机视窗</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2026 九福爸爸 9fbaba.</string>
+    <key>CFBundleShortVersionString</key>
+    <string>0.2.1</string>
+    <key>CFBundleVersion</key>
+    <string>5</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>NSCameraUsageDescription</key>
+    <string>用于通过 USB 预览 iPhone 屏幕。macOS 将这项权限归为“摄像头”；本程序只选择手机屏幕来源，不访问手机摄像头，不录制或保存画面。</string>
+    <key>NSCameraUseContinuityCameraDeviceType</key>
+    <true/>
+    <key>NSQuitAlwaysKeepsWindows</key>
+    <false/>
+    <key>NSSupportsAutomaticTermination</key>
+    <false/>
+    <key>NSSupportsSuddenTermination</key>
+    <false/>
+</dict>
+</plist>

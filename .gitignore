@@ -1,0 +1,8 @@
+/dist/
+/.build/
+/backups/
+.env
+.env.*
+*.log
+*.dSYM/
+.DS_Store
