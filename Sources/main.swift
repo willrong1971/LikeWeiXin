@@ -55,6 +55,9 @@ final class PhoneView: NSView {
         super.init(frame: frame)
         wantsLayer = true
         layer?.backgroundColor = NSColor.black.cgColor
+        layer?.cornerRadius = 12
+        layer?.cornerCurve = .continuous
+        layer?.masksToBounds = true
         preview.videoGravity = .resizeAspect
         layer?.insertSublayer(preview, at: 0)
         setAccessibilityElement(true)
@@ -211,7 +214,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate {
         panel.isFloatingPanel = false
         panel.isMovableByWindowBackground = true
         panel.hasShadow = true
-        panel.backgroundColor = .black
+        panel.isOpaque = false
+        panel.backgroundColor = .clear
         window = panel
         window.title = "手机视窗"
         window.contentMinSize = NSSize(width: 170, height: 300)
